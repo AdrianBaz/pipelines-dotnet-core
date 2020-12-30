@@ -1,3 +1,4 @@
+https://dev.azure.com/adrianbaz0011/testingProject/_apis/build/status/AdrianBaz.pipelines-dotnet-core?branchName=master
 https://github.com/login?return_to=%2FMicrosoftDocs%2Fpipelines-dotnet-core%2Fblob%2Fmaster%2FREADME.md
 # Sample ASP.NET Core application for Azure Pipelines docs
 
