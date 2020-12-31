@@ -17,6 +17,11 @@ steps:
   displayName: 'dotnet build $(buildConfiguration)'
 
 - task: DotNetCoreCLI@2
+  inputs:
+    command: test
+    projects: '**/*Tests/*.csproj'
+    arguments: '--configuration $(buildConfiguration)'
+- task: DotNetCoreCLI@2
   displayName: Build
   inputs:
     command: build
@@ -34,3 +39,4 @@ steps:
   inputs:
     version: '3.0.x'
     packageType: runtime
+    
